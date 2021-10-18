@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  padding: 30px;
+  background-color: #e1f5fe;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.App {
+  color: rgb(168, 117, 54);
+}

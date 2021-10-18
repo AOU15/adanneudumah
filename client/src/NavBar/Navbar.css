@@ -1,0 +1,33 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  align-self: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(250, 246, 246);
+  font-size: larger;
+}
+/* h3 {
+  padding-right: 1100px;
+  position: relative;
+} */
+
+a {
+  text-decoration: none;
+  display: flex;
+}
+
+a:visited {
+  color: rgb(65, 1, 1);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  font-size: medium;
+}
