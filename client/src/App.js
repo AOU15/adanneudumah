@@ -9,7 +9,7 @@ import Contact from './Contact/Contact';
 
 function App() {
   return (
-    <>
+    
     <div className='App'>
       <Switch>
 
@@ -27,9 +27,17 @@ function App() {
       </Route>
       </Switch>
       <NavBar />
+      <footer className='footer'>
+      <li className='linkedin'><a href="https://www.linkedin.com/in/adanneudumah/">
+          <img src="https://i.imgur.com/fN4DTIB.png?1" /></a></li>
+        
+        <li className="github"><a href="https://github.com/AOU15">
+          <img src="https://i.imgur.com/tTCalAb.png?2" />
+        </a>
+        </li>
+      </footer>
     </div>
-    <footer className='footer'></footer>
-    </>
+    
   )
 }
 

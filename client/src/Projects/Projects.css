@@ -1,12 +1,13 @@
 .container {
-  height: 100vh;
-  width: 100vw;
+  height: 150vh;
+  width: 150vw;
   max-height: 800px;
   max-width: 1280px;
   min-height: 600px;
   min-width: 1000px;
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   margin: 0 auto;
 }
@@ -41,8 +42,6 @@
   background-size: 300px;
 }
 :hover {
-  /* background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
-    left center no-repeat; */
   background-size: 600px;
 }
 
@@ -55,8 +54,6 @@
   background-size: 300px;
 }
 :hover {
-  /* background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg")
-    left center no-repeat; */
   background-size: 600px;
 }
 
@@ -69,8 +66,6 @@
   background-size: 300px;
 }
 :hover {
-  /* background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-laptops-1589464856.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*")
-    left center no-repeat; */
   background-size: 900px;
 }
 
@@ -109,4 +104,9 @@
   font-weight: bold;
   color: rgb(92, 90, 90);
   font-size: larger;
+}
+p {
+  color: darkblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

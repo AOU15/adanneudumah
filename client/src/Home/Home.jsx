@@ -13,6 +13,12 @@ export default function Home() {
         </Link>
       </h1>
       </div>
+      <div className='Note'>
+        <p className='about-me'>
+       
+       Welcome! Here's a little about me. I enjoy coding and designing web applications. I have experience with front-end development and back-end development. I'm constantly learning and implementing new features to my projects. 
+        </p>
+        </div>
       </>
   );
 }

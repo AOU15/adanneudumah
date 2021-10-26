@@ -1,14 +1,30 @@
 .footer {
   display: flex;
-  padding: 30px;
+  padding: 10px;
   background-color: #e1f5fe;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  justify-content: flex-end;
 }
 
 .App {
   color: rgb(168, 117, 54);
+  /* background-color: bisque; */
+}
+
+.linkedin {
+  list-style-type: none;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.github {
+  list-style-type: none;
+  border-radius: none;
+  padding-right: 10px;
 }
