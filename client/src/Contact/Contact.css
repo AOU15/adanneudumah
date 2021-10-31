@@ -13,12 +13,12 @@
   border-radius: 50px;
   justify-content: center;
   width: 50%;
+  margin-bottom: 200px;
 }
 .contactform {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding: 105px; */
   margin: auto;
   width: 100%;
 }

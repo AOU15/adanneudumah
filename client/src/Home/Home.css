@@ -4,18 +4,13 @@
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
-  /* background-position: fixed; */
   background-color: #e1f5fe;
   padding: 200px;
   margin: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  /* justify-content: space-around; */
-  /* justify-content: space-between; */
-  /* grid-gap: 100px 100px; */
   border-radius: 50px;
   justify-content: flex-start;
-  /* margin-top: 300px; */
   width: 50%;
   height: 100px;
 }
@@ -33,7 +28,6 @@
   color: rgb(17, 17, 15);
   border-radius: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  /* margin: 20px; */
   font-size: 20px;
 }
 
@@ -67,35 +61,26 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* background-repeat: no-repeat; */
-  /* background-position: fixed; */
   background-color: #bbe7fab1;
   padding: 20px;
   margin: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  /* justify-content: space-around; */
-  /* justify-content: space-between; */
-  /* grid-gap: 100px 100px; */
   border-radius: 50px;
   justify-content: flex-end;
-  /* margin-top: 300px; */
   width: 30%;
-  /* height: 100px; */
 }
 .techstacks {
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 20px;
   background-color: #bbe7fab1;
-  /* padding: 20px; */
   margin: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 70px;
   justify-content: flex-end;
   width: 20%;
-  /* top: 5px; */
   right: 16px;
   position: relative;
   margin-bottom: 250px;
