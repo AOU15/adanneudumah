@@ -14,15 +14,16 @@ export default function Home() {
       </div>
       <div className="Note">
         <p className="about-me">
-          Welcome! Here's a little about me. I enjoy coding and designing web
+          Welcome! Here's a little about me. I am a Software Engineer with a background in Public  I enjoy coding and designing web
           applications. I have experience with front-end development and
           back-end development. I'm constantly learning and implementing new
           features to my projects.
         </p>
       </div>
       <div className="techstacks">
-        <h3>My current tech stacks</h3>
-        <h3 className="images">
+        
+        <h3>Current tech stacks: </h3>
+          
           <img src="https://i.imgur.com/Bpp0cxu.png?1" />
           <img src="https://i.imgur.com/i23kxnE.png?2" />
           <img src="https://i.imgur.com/IE7he7o.png?1" />
@@ -32,7 +33,7 @@ export default function Home() {
           <img src="https://i.imgur.com/0wgWR9t.png?1" />
           <img src="https://i.imgur.com/NntHQJ5.png?1" />
           <img src="https://i.imgur.com/dSS5gxz.png?1" />
-        </h3>
+        
       </div>
     </>
   );

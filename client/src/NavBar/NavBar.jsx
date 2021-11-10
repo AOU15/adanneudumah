@@ -10,7 +10,7 @@ const NavBar = () => {
     return(
       <div>
         
-        <AppBar style={{backgroundColor: '#E3F2FD'}}>
+        <AppBar style={{backgroundColor: '#fffffb'}}>
             <Toolbar >
               {/* <h3>Adanne Udumah</h3> */}
             <Typography variant="title" color="inherit">

@@ -1,7 +1,7 @@
 .resume {
   display: grid;
   grid-template-columns: auto;
-  background-color: #e1f5fe;
+  background-color: #efdcd5;
   padding: 100px;
   margin: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@ h2 {
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: rgb(92, 90, 90);
+  color: rgb(100, 97, 97);
   font-size: x-large;
   justify-content: center;
 }

@@ -1,18 +1,21 @@
 .footer {
   display: flex;
   padding: 10px;
-  background-color: #e1f5fe;
+  background-color: #fffffb;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
   justify-content: flex-end;
+  /* border-radius: 10px; */
 }
 
 .App {
-  color: rgb(168, 117, 54);
-  /* background-color: bisque; */
+  display: flex;
+  flex-direction: column;
+  color: rgb(1, 1, 1);
+  background-color: #ffeade;
 }
 
 .linkedin {
@@ -29,8 +32,13 @@
   padding-right: 10px;
 }
 
-/* @media screen and (max-width: 768px) {
-  body {
-    
+@media screen and (max-width: 768px) {
+  .App {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-evenly;
   }
-} */
+  .footer {
+    position: relative;
+  }
+}

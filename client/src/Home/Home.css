@@ -1,18 +1,19 @@
 .home {
   background-image: url("https://www.pngitem.com/pimgs/m/173-1739801_women-in-tech-png-transparent-png.png");
-  position: fixed;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
-  background-color: #e1f5fe;
+  background-color: #fffffb;
   padding: 200px;
-  margin: 200px;
+  margin-top: 200px;
+  margin-bottom: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 200px;
   justify-content: flex-start;
-  width: 50%;
-  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .homebutton {
@@ -37,7 +38,7 @@
   flex-direction: row;
   justify-items: flex-end;
   align-items: flex-end;
-  color: rgb(29, 38, 43);
+  color: rgb(100, 97, 97);
   justify-content: flex-end;
   font-size: xx-large;
 }
@@ -55,47 +56,98 @@ h1 {
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-}
-
-.Note {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  background-color: #bbe7fab1;
+  background-color: #fffffb;
   padding: 20px;
-  margin: 200px;
+  /* margin: 100px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 50px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .techstacks {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 20px;
-  background-color: #bbe7fab1;
-  margin: 100px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 70px;
-  justify-content: flex-end;
-  width: 20%;
-  right: 16px;
-  position: relative;
-  margin-bottom: 250px;
-  position: absolute;
-}
-.images {
   display: grid;
   grid-row-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 15px;
   justify-items: center;
+  align-content: center;
+  background-color: #fffffb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 70px;
+  width: 50%;
+  /* right: 16px; */
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 h3 {
-  color: rgb(29, 38, 43);
+  color: rgb(1, 1, 1);
   display: flex;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  /* .App {
+    display: flex;
+    flex-direction: column;
+  } */
+  .home {
+    padding-top: 200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    border-radius: 500px;
+  }
+  .about-me {
+    display: flex;
+    align-content: flex-start;
+    padding: 70px;
+    margin: 40px;
+    color: rgb(100, 97, 97);
+  }
+  .Note {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .techstacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+  .name-title {
+    color: white;
+  }
+  h3 {
+    color: rgb(100, 97, 97);
+  }
+  .homebutton {
+    color: rgb(100, 97, 97);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .techstacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
