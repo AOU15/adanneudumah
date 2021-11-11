@@ -13,6 +13,7 @@ body {
   min-width: 800px;
   display: flex;
   justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   margin-top: 200px;
@@ -110,7 +111,7 @@ p {
   .container {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    /* padding: 100px; */
     justify-content: space-between;
     margin: 100px;
     margin-right: auto;
@@ -118,13 +119,17 @@ p {
   }
 
   p {
-    padding: 30px;
+    padding: 20px;
   }
   .card {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 10px;
+    border-radius: 60px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 365px) {
   .App {
     display: flex;
     flex-direction: column;
@@ -133,11 +138,29 @@ p {
   .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 100px;
-    padding: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin: 100px; */
+    align-items: flex-start;
+  }
+
+  .border {
+    height: 200px;
+  }
+  p {
+    padding: 20px;
+    font-weight: bold;
+    color: rgba(20, 20, 20, 0.884);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 10px;
+    border-radius: 70px;
+    background-color: rgba(211, 203, 211, 0.714);
+  }
+
+  .card0 {
+    background-size: 100px;
   }
 }

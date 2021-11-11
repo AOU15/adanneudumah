@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="Note">
         <p className="about-me">
-          Welcome! Here's a little about me. I am a Software Engineer with a background in Public  I enjoy coding and designing web
+          Welcome! Here's a little about me. I am a Software Engineer with a background in Public Health. I enjoy coding and designing web
           applications. I have experience with front-end development and
           back-end development. I'm constantly learning and implementing new
           features to my projects.

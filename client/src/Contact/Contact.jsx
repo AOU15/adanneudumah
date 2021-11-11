@@ -1,4 +1,5 @@
 import "./Contact.css";
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
@@ -25,8 +26,10 @@ export default function Contact() {
         <input className='message'
           type='text'
         />
-      </label>
+        </label>
+        <Link to="/" >
       <button className='submitbutton'>Submit</button>
+      </Link>
       </form>
       
       
