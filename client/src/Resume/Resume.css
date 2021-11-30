@@ -1,7 +1,7 @@
 .resume {
   display: grid;
   grid-template-columns: auto;
-  background-color: #efdcd5;
+  background-color: #d3d2d170;
   padding: 100px;
   margin: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -18,9 +18,9 @@
 
 h2 {
   display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  color: rgb(100, 97, 97);
+  color: rgb(4, 4, 4);
   font-size: x-large;
   justify-content: center;
 }
@@ -30,6 +30,9 @@ h2 {
     display: flex;
     /* margin: 800px; */
   }
+  .resume {
+    background: none;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -37,5 +40,8 @@ h2 {
     display: flex;
     margin-left: 800px;
     margin-right: 800px;
+  }
+  .resume {
+    background: none;
   }
 }

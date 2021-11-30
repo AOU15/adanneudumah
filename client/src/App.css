@@ -15,7 +15,8 @@
   display: flex;
   flex-direction: column;
   color: rgb(1, 1, 1);
-  background-color: #ffeade;
+  /* background-color: #ffeade; */
+  background-image: url("https://products.ls.graphics/mesh-gradients/images/62.-Amour_1.jpg");
 }
 
 .linkedin {

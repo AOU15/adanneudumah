@@ -24,12 +24,13 @@
   align-items: flex-end;
   align-content: center;
   border: none;
-  background-color: rgb(240, 235, 212);
+  background-color: rgba(104, 104, 102, 0.331);
   padding: 20px;
   color: rgb(17, 17, 15);
   border-radius: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
+  font-size: x-large;
 }
 
 .name-title {
@@ -53,8 +54,8 @@ h1 {
   align-content: flex-end;
   justify-content: flex-end;
   justify-items: flex-end;
-  font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
   flex-wrap: wrap;
   background-color: #fffffb;
@@ -87,10 +88,11 @@ h1 {
   margin-right: auto;
 }
 h3 {
-  color: rgb(1, 1, 1);
+  color: rgb(100, 99, 99);
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-size: x-large;
 }
 
 @media screen and (max-width: 768px) {

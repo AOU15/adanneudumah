@@ -5,10 +5,10 @@
   justify-content: flex-end;
   /* align-items: flex-end; */
   align-self: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
   color: rgb(250, 246, 246);
-  font-size: larger;
+  font-size: x-large;
 }
 /* h3 {
   padding-right: 1100px;
@@ -21,7 +21,7 @@ a {
 }
 
 a:visited {
-  color: rgb(65, 1, 1);
+  color: rgb(19, 19, 19);
 }
 
 a:hover {

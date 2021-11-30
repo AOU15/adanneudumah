@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="techstacks">
         
-        <h3>Current tech stacks: </h3>
+        <h3>Current Tech Stacks: </h3>
           
           <img src="https://i.imgur.com/Bpp0cxu.png?1" />
           <img src="https://i.imgur.com/i23kxnE.png?2" />

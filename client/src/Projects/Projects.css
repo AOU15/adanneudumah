@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 .container {
-  height: 100vh;
+  height: 90vh;
   /* width: 150vw; */
   /* max-height: auto; */
   max-width: 1280px;
@@ -16,7 +16,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -32,73 +33,81 @@ body {
 .card {
   height: 800px;
   width: 600px;
-  background: rgb(250, 246, 246);
+  background: rgba(250, 246, 246, 0.44);
   border-radius: 40px;
   transition: background 0.8s;
   overflow: hidden;
-  background: rgb(250, 246, 246);
+  background: rgba(250, 246, 246, 0.488);
   box-shadow: 0 70px 63px -60px #000000b8;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: relative;
 }
 
-.card0 {
+.card0:hover {
   background: url("https://i.pinimg.com/originals/ba/de/3f/bade3f5134bd8c16fae9cb800023ab23.jpg")
-    center center no-repeat;
-  background-size: 300px;
+    center no-repeat;
+  background-size: 400px;
   background-color: #fffffb;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 20px;
 }
 
-.card1 {
+.card1:hover {
   background: url("https://media-exp1.licdn.com/dms/image/C511BAQEgWZDahcLosA/company-background_10000/0/1519799975034?e=2159024400&v=beta&t=U6I8xH2iaQQ42eZv63KSRa1KBfiW_0_O-CE_OQEy120")
-    center center no-repeat;
-  background-size: 300px;
+    center no-repeat;
+  background-size: 400px;
   background-color: #fffffb;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 20px;
 }
 
-.card2 {
+.card2:hover {
   background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-laptops-1589464856.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*")
-    center center no-repeat;
-  background-size: 300px;
+    center no-repeat;
+  background-size: 400px;
   background-color: #fffffb;
-}
-:hover {
-  background-size: 900px;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 20px;
 }
 
 .whereto-link {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  color: rgb(92, 90, 90);
-  font-size: larger;
+  color: rgb(1, 0, 0);
+  font-size: x-large;
 }
 .careforyou-link {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  color: rgb(92, 90, 90);
-  font-size: larger;
+  color: rgb(2, 2, 2);
+  font-size: x-large;
+  border-radius: 5px;
 }
 .techcare-link {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  color: rgb(92, 90, 90);
-  font-size: larger;
+  color: rgb(1, 0, 0);
+  font-size: x-large;
 }
 p {
-  color: rgb(4, 4, 4);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(92, 90, 90);
+  font-family: "Libre Baskerville", serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
